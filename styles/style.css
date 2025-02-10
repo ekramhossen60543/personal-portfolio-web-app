@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* Open sans Font Link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* share style */
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 18px 35px;
+  border: none;
+  font-size: 20px;
+}
+.dark-01 {
+  color: #181818;
+}
+.dark-02 {
+  color: #474747;
+}
+.dark-03 {
+  color: #757575;
+}
+.dark-04 {
+  color: #a3a3a3;
+}
+.dark-05 {
+  color: #d1d1d1;
+}
+.dark-06 {
+  color: #ededed;
+}
+.dark-07 {
+  color: #f7f7f7;
+}
+.section-title {
+  font-size: bold;
+  font-size: 35px;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  font-weight: regular;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 50px;
+}
+/* Banner Styles */
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+  margin-bottom: 130px;
+}
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: normal;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 35px 0px 200px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-image img {
+  max-width: 580px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  padding: 130px 150px;
+}
+/* About Styles */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.about-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.item-title {
+  font-size: 20px;
+  font-weight: normal;
+  color: #757575;
+}
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}
