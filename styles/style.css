@@ -179,3 +179,85 @@ main section {
   width: 44px;
   height: 44px;
 }
+/* Resume section styles */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-container .resume-column-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+.experience .experience-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.experience .experience-sub-title {
+  font-size: 20px;
+  font-weight: semi-bold;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.experience .experience-description {
+  font-size: 16px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.resume-download-cv {
+  margin-top: 50px;
+}
+.download-btn {
+  text-align: left;
+}
+/* Footer Styles  */
+.footer-section {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-description {
+  font-size: 18px;
+  font-weight: regular;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.social-contact {
+  display: flex;
+  gap: 24px;
+}
+.footer-form {
+  display: block;
+}
+.footer-form input {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.footer-form textarea {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.footer-form button {
+  font-size: 20px;
+}
+.footer-column {
+  width: 50%;
+}
